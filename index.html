@@ -5,24 +5,34 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Manifestos Modernistas</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+	<link href="assets/css/waves.min.css" rel="stylesheet">
+	<link href="assets/css/main.css" rel="stylesheet">
 </head>
 <body class="vh-100">
 	<nav class="navbar bg-dark text-light p-3">
 		<div class="container">
-			Manifestos Modernistas
+			<h3 class="my-0">Manifestos Modernistas</h3>
 		</div>
 	</nav>
 	<section class="container mt-3">
 		<div class="accordion" id="accordionExample">
 			<div class="accordion-item">
 				<h2 class="accordion-header" id="headingOne">
-					<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-						Accordion Item #1
+					<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#revistaAntropofágica" aria-expanded="true" aria-controls="revistaAntropofágica">
+						Revista Antropofágica
 					</button>
 				</h2>
-				<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+				<div id="revistaAntropofágica" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
 					<div class="accordion-body">
-						<strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+						<p class="mt-0">O Manifesto Antropofágico propunha, basicamente, "devorar" a cultura e as técnicas importadas e provocar sua reelaboração com autonomia, transformando o produto importado em exportável. Tentando criar uma cultura de caráter nacional, a proposta do movimento antropofágico assimilava outras culturas, mas não copiava. A divulgação do movimento era realizado na Revista de Antropofagia, publicada em São Paulo, com o objetivo de repensar a dependência cultural brasileira em relação à estrangeira.</p>
+						<p class="mb-0">Foi liderado por Oswald de Andrade (1890-1954) e Tarsila do Amaral (1886-1973).</p>
+						<div class="d-flex w-100 justify-content-center">
+							<div class="btn-group mt-3" role="group">
+								<a href="assets/img/capas/manifesto-nhengacu-verde-amarelo.jpg" data-fslightbox="gallery" class="btn btn-primary btn-wave">Capa</a>
+								<a href="assets/img/pessoas/oswald-de-andrade-junto-com-tarsila-do-amaral.jpg" data-fslightbox="gallery" class="btn btn-primary btn-wave">Foto dos membros</a>
+								<a href="https://digital.bbm.usp.br/bitstream/bbm/7064/1/45000033273.pdf" target="_blank" class="btn btn-primary btn-wave">Manifesto na íntegra</a>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -50,8 +60,23 @@
 					</div>
 				</div>
 			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="headingThree">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+						Accordion Item #3
+					</button>
+				</h2>
+				<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+					<div class="accordion-body">
+						<strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+	<script src="assets/js/waves.min.js"></script>
+	<script src="assets/js/fslightbox.js"></script>
+	<script src="assets/js/main.js"></script>
 </body>
