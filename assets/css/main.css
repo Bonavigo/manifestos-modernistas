@@ -1,0 +1,7 @@
+/* Fatto con amore da Bruno Bonavigo, 2022*/
+
+.btn-manifesto {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
